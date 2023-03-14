@@ -2,4 +2,4 @@ from django.shortcuts import render
 
 
 def say_hello(request):
-    return render(request, "index.html", {"name": "Hassan"})
+    return render(request, 'hello.html', {'name': 'Hassan'})
